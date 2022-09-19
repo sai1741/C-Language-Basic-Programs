@@ -5,7 +5,7 @@ int year,leap_year,normal_year,no_leap,y100,y400,total_days,extra_day;
     scanf("%d",&year);
 
     /*consept of leap year,these year which are multiple of 4
-     and for years wich are multiple of 100 should divisible by 400 */
+     and for years which are multiple of 100 should divisible by 400 */
 
     leap_year=year/4; //calculate all leap year + non leap year like 100,200,300,500.....
 
